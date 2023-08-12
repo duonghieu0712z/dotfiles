@@ -1,12 +1,12 @@
 [core]
-	# editor = code --wait
-	editor = nvim
+	editor = code --wait
+	# editor = nvim
 	longpaths = true
 	autocrlf = true
 [user]
-	name = # your name
-	email = #your email
-	signingkey = # your siging GPG key
+	name = '' # your name
+	email = '' #your email
+	# signingkey = '' # your siging GPG key, if use GPG program
 
 [init]
 	defaultBranch = main
@@ -20,12 +20,13 @@
 [safe]
 	directory = *
 
-[commit]
-	gpgsign = true
-[gpg]
-	program = # your gpg program
-[tag]
-	gpgsign = true
+# Use gpg program
+# [commit]
+# 	gpgsign = true
+# [gpg]
+# 	program = '' # your gpg program
+# [tag]
+# 	gpgsign = true
 
 [filter "lfs"]
 	required = true

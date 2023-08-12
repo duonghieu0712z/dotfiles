@@ -42,11 +42,11 @@
             "fetch_upstream_icon": true,
             "branch_icon": "",
             "status_formats": {
-              "Unmerged": " %d",
-              "Untracked": " %d",
-              "Added": " %d",
-              "Modified": " %d",
-              "Deleted": " %d"
+              "Unmerged": " %d ",
+              "Untracked": " %d ",
+              "Added": " %d ",
+              "Modified": " %d ",
+              "Deleted": " %d "
             }
           }
         }

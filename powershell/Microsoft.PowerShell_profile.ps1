@@ -1,9 +1,5 @@
 #Requires -Version 7
 
-# Starship
-# $env:STARSHIP_CONFIG = "$HOME/mytheme.starship.toml"
-# starship init powershell | Invoke-Expression
-
 # Oh-My-Posh
 oh-my-posh init pwsh --config "~/mytheme.omp.json" | Invoke-Expression
 Import-Module posh-git
