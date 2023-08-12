@@ -1,0 +1,58 @@
+[core]
+	# editor = code --wait
+	editor = nvim
+	longpaths = true
+	autocrlf = true
+[user]
+	name = # your name
+	email = #your email
+	signingkey = # your siging GPG key
+
+[init]
+	defaultBranch = main
+[alias]
+	adog = log --all --decorate --oneline --graph
+	rank = shortlog -s -n --no-merges
+[color]
+	ui = auto
+[push]
+	followTags = true
+[safe]
+	directory = *
+
+[commit]
+	gpgsign = true
+[gpg]
+	program = # your gpg program
+[tag]
+	gpgsign = true
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[mergetool]
+	prompt = true
+	keepBackup = false
+    keepTemporaries = false
+[difftool]
+	prompt = true
+
+[merge]
+	tool = vscode
+	# tool = nvimdiff
+[diff]
+	tool = vscode
+	# tool = nvimdiff
+
+[mergetool "vscode"]
+	cmd = code --wait --merge $LOCAL $REMOTE $BASE $MERGED
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+
+[mergetool "vimdiff"]
+	layout = "LOCAL, REMOTE / MERGED"
+[difftool "vimdiff"]
+	layout = "LOCAL, REMOTE"
