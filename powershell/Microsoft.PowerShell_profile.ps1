@@ -31,6 +31,11 @@ if (Test-Path($ChocolateyProfile)) {
     Import-Module "$ChocolateyProfile"
 }
 
+# Fix error in winfetch
+function clist {
+    choco list
+}
+
 
 # Zoxide
 Invoke-Expression (& {
