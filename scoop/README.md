@@ -69,6 +69,7 @@ scoop install <name>
 | `neofetch`         |      |
 | `cht`              |      |
 | `chatgpt`          |      |
+| `powertoys`        |      |
 | `vivetool`         |      |
 | `wingetui`         |      |
 | `putty`            |      |
