@@ -9,6 +9,7 @@ Import-Module posh-docker
 Import-Module scoop-completion
 Invoke-Expression (&scoop-search --hook)
 
+# PSModule
 Import-Module PSReadLine
 Import-Module CompletionPredictor
 Import-Module -Name Terminal-Icons
@@ -29,11 +30,6 @@ Set-PSReadLineKeyHandler -Chord DownArrow -Function HistorySearchForward
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
     Import-Module "$ChocolateyProfile"
-}
-
-# Fix error in winfetch
-function clist {
-    choco list
 }
 
 
