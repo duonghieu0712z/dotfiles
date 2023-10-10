@@ -42,6 +42,7 @@ scoop install <name>
 |   `Python`   | `python`                                             |      |
 |    `Node`    | `nodejs` or<br/>`nodejs-lts`                         |      |
 |    `Lua`     | `lua-for-windows`                                    |      |
+|    `Rust`    | `rustup`                                             |      |
 
 ### Utilities
 
