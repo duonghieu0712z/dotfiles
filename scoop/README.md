@@ -65,6 +65,8 @@ scoop install <name>
 | `neovide`          |      |
 | `ripgrep`          |      |
 | `fzf`              |      |
+| `fd`               |      |
+| `file`             |      |
 | `clink`            |      |
 | `winfetch`         |      |
 | `neofetch`         |      |
