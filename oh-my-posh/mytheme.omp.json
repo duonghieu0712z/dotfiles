@@ -76,7 +76,7 @@
           "type": "executiontime",
           "style": "plain",
           "foreground": "#eb4034",
-          "template": " <d><#c0c0c0>󰍴</> <i>{{ .FormattedMs }}</i></d>",
+          "template": " <d><#c0c0c0>—</> <i>{{ .FormattedMs }}</i></d>",
           "properties": {
             "always_enabled": true,
             "style": "roundrock"
