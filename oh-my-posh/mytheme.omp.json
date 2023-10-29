@@ -13,7 +13,7 @@
           "type": "session",
           "style": "plain",
           "foreground": "#d0666f",
-          "template": "<#45f1c2>╭─</> {{ if .SSHSession }} {{ end }}{{ .UserName }}@{{ .HostName }}"
+          "template": "<#45f1c2>╭─</>  {{ .UserName }}"
         },
         {
           "type": "path",
