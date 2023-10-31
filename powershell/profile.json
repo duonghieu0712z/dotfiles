@@ -1,0 +1,23 @@
+{
+  "background": "#000000",
+  "black": "#000000",
+  "blue": "#4040FF",
+  "brightBlack": "#808080",
+  "brightBlue": "#407FFF",
+  "brightCyan": "#40FF7F",
+  "brightGreen": "#7FFF40",
+  "brightPurple": "#7F40FF",
+  "brightRed": "#FF407F",
+  "brightWhite": "#C0C0C0",
+  "brightYellow": "#FF7F40",
+  "cursorColor": "#FFFFFF",
+  "cyan": "#40FFFF",
+  "foreground": "#FFFFFF",
+  "green": "#40FF40",
+  "name": "Color Wheel",
+  "purple": "#FF40FF",
+  "red": "#FF4040",
+  "selectionBackground": "#FFFFFF",
+  "white": "#FFFFFF",
+  "yellow": "#FFFF40"
+}
