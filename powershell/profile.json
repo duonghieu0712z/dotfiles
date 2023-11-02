@@ -10,14 +10,14 @@
   "brightRed": "#FF407F",
   "brightWhite": "#C0C0C0",
   "brightYellow": "#FF7F40",
-  "cursorColor": "#FFFFFF",
+  "cursorColor": "#C0C0C0",
   "cyan": "#40FFFF",
   "foreground": "#FFFFFF",
   "green": "#40FF40",
   "name": "Color Wheel",
   "purple": "#FF40FF",
   "red": "#FF4040",
-  "selectionBackground": "#FFFFFF",
+  "selectionBackground": "#808080",
   "white": "#FFFFFF",
   "yellow": "#FFFF40"
 }
