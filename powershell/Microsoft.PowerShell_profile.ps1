@@ -33,3 +33,8 @@ $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
     Import-Module "$ChocolateyProfile"
 }
+
+# Alias `lsd` to `ls`
+if ([bool](Get-Command lsd -ErrorAction SilentlyContinue)) {
+    Set-Alias ls lsd
+}

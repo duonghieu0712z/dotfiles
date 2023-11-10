@@ -67,6 +67,7 @@ scoop install <name>
 | `fzf`              |      |
 | `fd`               |      |
 | `file`             |      |
+| `lsd`              |      |
 | `clink`            |      |
 | `winfetch`         |      |
 | `neofetch`         |      |
