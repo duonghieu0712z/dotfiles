@@ -43,10 +43,10 @@
             "branch_icon": "",
             "commit_icon": " ",
             "tag_icon": " ",
-            "rebase_icon": "",
+            "rebase_icon": " ",
             "cherry_pick_icon": " ",
             "revert_icon": " ",
-            "merge_icon": "",
+            "merge_icon": " ",
             "no_commits_icon": "󰜛",
             "status_formats": {
               "Unmerged": "󰽜 %d ",
