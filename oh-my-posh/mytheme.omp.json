@@ -2,6 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "console_title_template": "{{ if .Root }}Root - {{ end }}{{ if eq .PWD \"~\" }}Home{{ else }}{{ .Folder }}{{ end }}",
   "final_space": true,
+  "shell_integration": true,
+  "auto_upgrade": true,
   "version": 2,
   "blocks": [
     {
