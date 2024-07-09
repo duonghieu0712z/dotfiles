@@ -4,6 +4,7 @@
   "final_space": true,
   "shell_integration": true,
   "auto_upgrade": true,
+  "disable_notice": true,
   "version": 2,
   "blocks": [
     {
