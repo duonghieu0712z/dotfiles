@@ -3,30 +3,53 @@
 	# editor = nvim
 	longpaths = true
 	autocrlf = true
+	ignorecase = false
 [user]
 	name = '' # your name
 	email = '' #your email
-	# signingkey = '' # your siging GPG key, if use GPG program
 
 [init]
 	defaultBranch = main
+
 [alias]
 	adog = log --all --decorate --oneline --graph
-	rank = shortlog -s -n --no-merges
+	rank = shortlog -sn --no-merges
+	last = log -1 HEAD --stat
+	co = checkout
+	st = status
+	br = branch
+	cm = commit -m
+	rv = remote -v
+	new = co -b
+	del = br -D
+	cp = cherry-pick
+	subclone = submodule update --init
+	subeach = submodule foreach
+	subco = subeach git co
+	subpull = subeach git pull -p
+	forcebr = "!f() { git br -f $1 HEAD; }; f"
+	squash = "!f() { git rebase -i HEAD~$1; }; f"
+	sq = squash
+	ours = "!f() { git co --ours $@ && git add $@; }; f"
+	theirs = "!f() { git co --theirs $@ && git add $@; }; f"
+	undo = reset --soft HEAD^
+	back = reset --hard HEAD^
+	rs = "!f() { git reset .; git clean -f .; git restore .; }; f"
+	slist = stash list
+	ssave = stash save
+	sapply = stash apply
+	spop = stash pop
+	sdrop = stash drop
+	sclear = stash clear
+	parent = "!git show-branch | grep '*' | grep -v \"$(git rev-parse --abbrev-ref HEAD)\" | head -n1 | sed 's/.*\\[\\(.*\\)\\].*/\\1/' | sed 's/[\\^~].*//' #"
+
 [color]
 	ui = auto
 [push]
 	followTags = true
+	autoSetupRemote = true
 [safe]
 	directory = *
-
-# Use gpg program
-# [commit]
-# 	gpgsign = true
-# [gpg]
-# 	program = '' # your gpg program
-# [tag]
-# 	gpgsign = true
 
 [filter "lfs"]
 	required = true
@@ -57,3 +80,8 @@
 	layout = "LOCAL, REMOTE / MERGED"
 [difftool "vimdiff"]
 	layout = "LOCAL, REMOTE"
+
+[credential]
+	helper = manager
+[credential "helperselector"]
+	selected = manager
