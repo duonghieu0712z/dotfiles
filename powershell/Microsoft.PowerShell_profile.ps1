@@ -1,9 +1,7 @@
 #Requires -Version 7
 
 # Oh-My-Posh
-oh-my-posh init pwsh --config "~/mytheme.omp.json" | Invoke-Expression
-Import-Module posh-git
-Import-Module posh-docker
+oh-my-posh init pwsh --config "~/.oh-my-posh/mytheme.omp.json" | Invoke-Expression
 
 # Scoop
 Import-Module scoop-completion
@@ -38,3 +36,8 @@ if (Test-Path($ChocolateyProfile)) {
 if ([bool](Get-Command lsd -ErrorAction SilentlyContinue)) {
     Set-Alias ls lsd
 }
+
+#f45873b3-b655-43a6-b217-97c00aa0db58 PowerToys CommandNotFound module
+
+Import-Module -Name Microsoft.WinGet.CommandNotFound
+#f45873b3-b655-43a6-b217-97c00aa0db58
