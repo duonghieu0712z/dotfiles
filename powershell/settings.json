@@ -1,0 +1,151 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowNotificationIcon": false,
+    "centerOnLaunch": true,
+    "confirmCloseAllTabs": false,
+    "copyFormatting": "all",
+    "copyOnSelect": true,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "focusFollowMouse": true,
+    "initialCols": 150,
+    "initialRows": 40,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "indexed",
+            "antialiasingMode": "cleartype",
+            "backgroundImage": "C:\\Users\\duonghieu\\OneDrive\\Pictures\\Background\\terminal.jpg",
+            "backgroundImageOpacity": 0.3,
+            "colorScheme": "Color Wheel",
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font",
+                "features": 
+                {
+                    "aalt": 0,
+                    "calt": 1,
+                    "case": 0,
+                    "ccmp": 1,
+                    "dnom": 0,
+                    "fina": 0,
+                    "frac": 0,
+                    "init": 0,
+                    "mark": 1,
+                    "medi": 0,
+                    "mkmk": 1,
+                    "numr": 0,
+                    "ordn": 0,
+                    "rclt": 0,
+                    "rlig": 1,
+                    "sinf": 0,
+                    "ss02": 0,
+                    "ss19": 0,
+                    "ss20": 0,
+                    "subs": 0,
+                    "sups": 0,
+                    "zero": 0
+                },
+                "size": 11,
+                "weight": "semi-light"
+            },
+            "opacity": 70,
+            "scrollbarState": "hidden",
+            "showMarksOnScrollbar": true
+        },
+        "list": 
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{55733b58-4bbe-5eb8-a916-3823b7926c86}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{4c0cc3d4-3445-5136-a3ed-123dbd80138a}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#4040FF",
+            "brightBlack": "#808080",
+            "brightBlue": "#407FFF",
+            "brightCyan": "#40FF7F",
+            "brightGreen": "#7FFF40",
+            "brightPurple": "#7F40FF",
+            "brightRed": "#FF407F",
+            "brightWhite": "#C0C0C0",
+            "brightYellow": "#FF7F40",
+            "cursorColor": "#C0C0C0",
+            "cyan": "#40FFFF",
+            "foreground": "#FFFFFF",
+            "green": "#40FF40",
+            "name": "Color Wheel",
+            "purple": "#FF40FF",
+            "red": "#FF4040",
+            "selectionBackground": "#808080",
+            "white": "#FFFFFF",
+            "yellow": "#FFFF40"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useAnyExisting"
+}
